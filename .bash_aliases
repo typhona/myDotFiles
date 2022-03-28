@@ -43,6 +43,8 @@ alias wifi="~/bin/./wifi.sh"
 # updates
 alias aptup='~/bin/./updupg.sh'
 alias getup='~/bin/./getupdupg.sh'
+alias auto='sudo apt autoremove -y'
+
 
 # webdev
 alias newSite='~/bin/./create.sh'
@@ -50,7 +52,6 @@ alias sites='cd /etc/apache2/sites-available/'
 alias hosting='sudo nano /etc/hosts'
 
 # ssh connections
-# alias myServer='myServer_address/ssh_config_file'
 alias pihole='ssh pihole'
 
 # funny
